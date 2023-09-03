@@ -18,6 +18,8 @@ The current version also replaces [Default reddit](https://www.reddit.com) in UR
 <summary>Improvements to be done on this</summary>
 
 - [ ] Add configuration page to add more rules for URL string replacements
+         - The code is already in place, but it does not work unless Node.js, npm & webextension-polyfill are installed
 - [ ] Ensure the wikipedia mobile-to-desktop logic works for all wiki languages (check if replacing ".m.wikipedia.org" will work for all languages).
 - [ ] [Submit this firefox addon](https://extensionworkshop.com/documentation/publish/submitting-an-add-on/)
+- [ ] Make this work for Chrome too
 </details>
