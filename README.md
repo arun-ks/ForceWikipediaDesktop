@@ -13,9 +13,9 @@ The current version also replaces [Default reddit](https://www.reddit.com) in UR
 # Customization
 - Edit the javascript in `content.js` file to add more replacements.
 
-# Future plans
+# Future Enhancements & Improvements
 <details>
-<summary>Improvements to be done on this</summary>
+<summary>Click to see the list</summary>
 
 - [ ] Add configuration page to add more rules for URL string replacements
          - The code is already in place, but it does not work unless Node.js, npm & webextension-polyfill are installed
