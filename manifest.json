@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "URL Replacer",
+  "version": "1.0",
+  "description": "Replace parts of URLs with other substrings",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_popup": "popup.html", 
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js",
+    "persistent": false
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
